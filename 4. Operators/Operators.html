@@ -1,13 +1,17 @@
 <html>
-	<title>Varaibles and Datatypes</title>
+	<title>Operators</title>
 	<script type="text/javascript">
     
         // JS is a loosely typed language
         // JS is dynamically typed
         var a = 3; // Number
         var b = 3;
-        var result = a + b;    
-        document.write("The result is"+result+"Tada"); // + symbol is for concatenation here
+        var result = a + b;
+        var result_string = "Dummy"+a+b; // This will give out a string; This property is called the associativity
+        var result_numb =  a+b + "Dummy" + a+b
+        document.write("<h1>The result is"+result+"Tada</h1>"); // + symbol is for concatenation here
+        document.write("<h1>The result is"+result_string+"Tada</h1>");
+        document.write("<h1>The result is"+result_numb+"Tada</h1>");
         
         alert(Name);
         
